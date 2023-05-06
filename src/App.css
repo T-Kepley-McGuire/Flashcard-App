@@ -1,0 +1,17 @@
+
+.card {
+    margin: 10px;
+    width: 45%;
+}
+
+.btn {
+    margin: 0px 5px;
+}
+
+.delete {
+    outline-style: auto;
+    outline-color: grey;
+}
+.delete:hover {
+    background-color: grey;
+}

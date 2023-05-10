@@ -1,7 +1,13 @@
 
-.card {
+.deckView {
     margin: 10px;
     width: 45%;
+}
+
+.cardView {
+    margin: 10px;
+    width: 45%;
+    height: 250px;
 }
 
 .btn {
@@ -14,4 +20,16 @@
 }
 .delete:hover {
     background-color: grey;
+}
+
+.add {
+    width: 100%;
+}
+
+i {
+    vertical-align: 1px;
+}
+
+.row {
+    margin-bottom: 10px;
 }

@@ -38,10 +38,10 @@ function CardForm({ handleSubmit, handleChange, formData, handleCancel }) {
         <br />
       </div>
       <button className="btn btn-secondary" onClick={handleCancel}>
-        Cancel
+        Done
       </button>
       <button className="btn btn-primary" type="submit">
-        Submit
+        Save
       </button>
     </form>
   );

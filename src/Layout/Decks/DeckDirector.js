@@ -12,9 +12,9 @@ import EditCard from "../Cards/EditCard";
     Does not "display" anything
 */
 function DeckDirector() {
-    const {path} = useRouteMatch();
+    const {path, url} = useRouteMatch();
     return (
-        <Switch>
+        <Switch>                          
             <Route exact path={`${path}`}>
                 <ViewDeck />
             </Route>

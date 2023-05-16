@@ -106,7 +106,7 @@ function StudyDeck() {
               You need at least 3 cards to study. There are{" "}
               {currentDeck.cards.length} cards in this deck.
             </p>
-            <Link to={`${deckUrl}/add`} className="btn btn-primary">
+            <Link to={`${deckUrl}/cards/new`} className="btn btn-primary">
               <i className="bi bi-plus-circle" />
               &nbsp;Add Cards
             </Link>
